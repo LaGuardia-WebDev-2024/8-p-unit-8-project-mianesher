@@ -1,26 +1,34 @@
-@font-face{
-  font-family: water;
-  src: url("https://cdn.glitch.global/97f7bbb3-2cd9-4b34-bbf2-d0a28c71f10b/Water%20Park.ttf?v=1738683075854");
-}
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
 
 body {
-  background-color: aliceblue;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
   text-align: center;
-  color: navy;
   margin: auto;
-  font-family: water;
+  font-family: "Poetsen One", serif;
 }
 
-h1{
+h1 {
   font-size: 30px;
+  color: white;
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
   background-size: 600px 400px;
-  border-radius: 300px;
+  border-radius: 30px;
   border: 5px solid white;
 }
 
+#askButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Delius", cursive;
+}
 
+#responseText {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Delius", cursive;
+}
 
